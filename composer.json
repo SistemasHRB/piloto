@@ -1,0 +1,25 @@
+{
+    "name": "pascualina/hotelrosabela",
+    "description": "hotel rosa bela",
+    "authors": [
+        {
+            "name": "Emilmar Cuarez"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Paginas\\": "./views/paginas",
+            "Classes\\":"./classes"
+        }
+    },
+    "require": {
+        "intervention/image": "2.7.2",
+        "phpmailer/phpmailer": "^6.9",
+        "dompdf/dompdf": "^2.0",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
